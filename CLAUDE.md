@@ -5,26 +5,26 @@
 **Status:** Active
 
 ## What This Was
-Pete agent ecosystem component
+TTC-compressed skill definitions for Pete agent
 
 ## Current State
-Active — last pushed 2026-02-23. Part of current GP3 platform or active development.
+Active — referenced by pete-agent
 
 ## Agent Replacement
-**Agent Name:** Pete Skills (TTC compressed)
+**Agent Name:** Pete Skills Library
 **Lives On:** Pete (187.77.28.22)
-**Orchestrator:** OpenClaw Gateway
-**Endpoint or Trigger:** N/A (loaded by pete-agent)
+**Orchestrator:** Loaded by OpenClaw
+**Endpoint or Trigger:** N/A (config repo)
 **Supabase Table:** N/A
 
 ## Handoff Notes
-This repo's core function was: AI agent/automation. Business context: Pete agent ecosystem component.
+Core function: Store reusable prompt/skill templates loaded by Pete at runtime. Context: TTC-compressed skill definitions for Pete agent
 
 ## Dependencies
-- None identified from README
+- None identified — check package.json for specifics
 
 ## Last Known Working State
 2026-02-23
 
 ## Claude's Notes
-- WARNING: No README found. Classification based on name/description only.
+- No README existed. Classification based on repo name.
